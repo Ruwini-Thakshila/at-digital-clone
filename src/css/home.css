@@ -31,6 +31,10 @@ nav{
     text-align: left;
     color: white;
 }
+
+#menu-icon{
+    display: none;
+}
 #hero-image-container{
     width: 100%;
     height: 700px;
@@ -392,17 +396,16 @@ footer{
         height: 706px;
     }
     #hero-image-container > img{
-        
-        height: 489px;
         position: initial;
-        object-fit: contain;
-        margin-top: -58px;
+        width: 100%;
+        height: 448px;
+        object-fit: fill;
     }
     
     #consultation{
         position: absolute;
         margin-left: 0;
-        margin-top: -62px;
+        margin-top: -5px;
         width: 100%;
         height: 258px;
     }
@@ -438,7 +441,7 @@ footer{
     
     .container-all{
         align-items: flex-start;
-        margin-top: -16px;
+        margin-top: 60px;
         gap: 20px;
     }
     
@@ -524,6 +527,181 @@ footer{
    
     #policy-content{
         margin-top: -90px;
+    }
+    
+}
+
+@media all and (min-width: 375px) and (max-width: 767px){
+    
+    nav{
+        padding:  26px, 20px;
+    }
+    
+    #logo{
+        padding-left: 20px;
+    }
+    
+    #nav-content{
+        display: none;
+    }
+
+    #menu-icon{
+        display: initial;
+        width: 31px;
+        height: 24px;
+        margin-right: 20px;
+    }
+
+    #hero-image-container{
+        width: 100%;
+        height: 512px;
+    }
+    #hero-image-container > img{
+        width: 100%;
+        height: 218px;
+        object-fit: fill;
+    }
+    
+    #consultation{
+        position: absolute;
+        margin-left: 0;
+        margin-top: -5px;
+        width: 100%;
+        height: 294px;
+    }
+    
+    #container-1{
+        gap: 20px;
+        
+    }
+    #txt-consult{
+        width: 335px;
+        height: 180px;
+        margin: 24px 20px 90px 20px;
+        font-size: 36px;
+        line-height: 36px;
+
+    }
+   
+    #btn-consult{
+        width: 214px;
+        height: 38px;
+        margin-top: 224px;
+        margin-left: 20px;   
+    }
+    
+    #container-2{
+        
+        margin-top: 60px;
+        gap: 20px;
+        width: 335px;
+        height: 572.82px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #container-2 > img{
+        width: 275px;
+        height: 275.82px;
+    }
+    
+    .container-all{
+        margin-top: 60px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .container-content{
+        align-items: center;
+        width: 335px;
+        height: 277px;
+        margin-top: 20px;
+    }
+    
+    #web-mobile{
+        height: 277px;    
+    }
+    
+    .heading-content{
+        text-align: center; 
+    }
+    
+    #web-mobile-content,
+    #stratergy-content{
+        text-align: center;
+    }
+
+    #container-3{
+        flex-direction: column-reverse;
+        width: 335px;
+        height: 573px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+    }
+
+    #container-3 > img{
+        width: 275px;
+        height: 276px;
+    }
+     
+    #digital-stratergy{
+        margin-top: 0;
+    }
+
+    footer{
+        padding: 40px, 20px, 20px, 20px;
+        margin-top: 80px;
+        height: 715px;
+        gap: 40px;
+
+    }
+    
+    #footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        width: calc(100% - 40px);
+        height: 590px;
+        margin: 40px 20px 85px 20px;
+        
+    }
+    
+    #goal-target{
+        width: 335px;
+        height: 121px;
+    }
+
+    #container-5{
+        width: 335px;
+        height: 409px;
+        gap: 40px;
+        flex-direction: column;
+    }
+    
+    #tech,
+    #services{
+        width: 216px;
+    }
+
+    #services{
+        height: 170px;
+    }
+    
+    #tech-content{
+        margin-right: 156px;
+        height: 162px;
+
+    }
+    
+    #service-content{
+        height: 133px;
+    }
+   
+    #policy-content{
+        width: 335px;
+        margin-top: -72px;
     }
     
 }
