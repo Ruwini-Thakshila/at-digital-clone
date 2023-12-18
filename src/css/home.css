@@ -1,0 +1,254 @@
+nav{
+
+    height: 77px;
+    width: 1440px;
+    background: #6B3CC9; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+#logo{
+    padding-bottom: 6px;
+    padding-left: 80px;
+}
+
+#nav-content{
+    gap: 28px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+}
+#nav-content div{
+    height: 17px;
+    color: white;
+}
+#hero-image-container{
+    width: 1440px;
+    height: 700px;
+}
+#hero-image-container > img{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#consultation{
+    position: absolute;
+    padding: 40px, 32px, 40px;
+    margin-left: 80px;
+    margin-top: 354px;
+    width: 630px;
+    height: 306px;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+#container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#txt-consult{
+    display: inline-block;
+    width: 556px;
+    height: 192px;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 24px 34px 90px 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+}
+.btn-all{
+    background-color: #F28D35;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    border: none;
+}
+#btn-consult{
+    width: 214px;
+    height: 38px;
+    margin-top: 236px;
+    margin-left: 40px;   
+}
+
+#container-2{
+    
+    height: 414px;
+}
+
+#container-2 > img{
+    margin-left: 188px;
+}
+
+.container-all{
+    display: flex;
+    align-items: center;
+    width: 1,064px;
+    margin-top: 80px;
+    gap: 108px;
+}
+
+.container-content{
+    /* margin-left: 108px; */
+    gap: 20px;
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+}
+
+#web-mobile{
+    
+    height: 187px;    
+}
+
+.heading-content{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #6B3CC9;
+    margin-right: 35px;
+
+}
+
+#web-mobile-content,
+#stratergy-content{
+    font-family: 'Inter', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+#learn-more{
+    width: 129px;
+    height: 38px;
+}
+
+#container-3{
+    height: 416px;
+}
+
+#digital-stratergy{
+    height: 206px;
+    margin-left: 188px;
+}
+
+footer{
+    position: absolute;
+    padding: 40px, 80px, 20px, 80px;
+    margin-top: 100px;
+    height: 324px;
+    background: #6B3CC9; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 199px;
+    margin: 40px 80px 40px 80px;
+    
+}
+
+#container-4{
+    width: 413px;
+    height: 102px;
+    gap: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#goal-target{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#tech,
+#services{
+    display: flex;
+    width: 197px;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#tech-heading,
+#service-heading{
+
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#tech-content{
+    gap: 12px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tech-content p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#container-5{
+    width: 522px;
+    height: 199px;
+    display: flex;
+    gap: 128px;
+}
+
+#policy-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 630px;
+    height: 25px;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+}
+
+#policy-content > p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
